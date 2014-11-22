@@ -1,0 +1,17 @@
+## set the value of the vector
+## get the value of the vector
+## set the value of the mean
+## get the value of the mean
+
+## The first function creates a vector.
+
+makeCacheMatrix <- function(x = matrix()) {
+
+}
+
+
+## Using this function, we create the inverse matrix 
+cacheSolve <- function(x, ...) {
+  amatrix = makeCacheMatrix(matrix(c(1,2,3,4), nrow=2, ncol=2))  ## Return a matrix that is the inverse o cachemean(a)f 'x'
+  amatrix$get() 
+}
